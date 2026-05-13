@@ -94,9 +94,8 @@ header {
     background-image:  linear-gradient(to right,rgba(13, 32, 66, 1), rgba(0, 0 ,0, 0.8), rgba(13, 32, 66, 1)), url(/Images/rm378-08.jpg);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 50px;
     position: relative;
     border-bottom: 4px solid rgb(0, 160, 255);
 }
@@ -108,15 +107,8 @@ header {
     align-items: center;
 }
 
-
-.devices {
-    width: clamp(23rem, 5vw, 45rem);
-    height: auto; 
-}
-
-.devices img {
-    width: 100%;
-    height: auto;
+.devices-img {
+    height: 50%;
     opacity: 90%;
 
 }
