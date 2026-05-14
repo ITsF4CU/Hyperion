@@ -132,7 +132,7 @@ nav ul a:hover::after {
 }
 
 .title-container h1 {
-    font-size: clamp(3rem, 3vmin, 6rem);
+    font-size: clamp(1.8rem, 5vmin, 5rem);
 }
 
 .title-container p {
